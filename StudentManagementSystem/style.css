@@ -1,0 +1,53 @@
+body {
+  font-family: "Times New Roman", Times, serif;
+  background: #f3f4f6;
+  margin: 0;
+  padding: 0;
+  color: #222;
+}
+.container {
+  width: 900px;
+  margin: 30px auto;
+  background: #fff;
+  padding: 22px 28px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+}
+.header { text-align: center; margin-bottom: 14px; }
+  h1 { margin: 0; font-size: 22px; }
+  nav { text-align:center; margin: 12px 0; }
+  nav a { margin: 0 10px; text-decoration: none; color: #0b57a9; font-weight: bold; }
+  label { display:block; margin:8px 0 4px; }
+
+input[type="text"], input[type="email"], input[type="tel"], input[type="number"] {
+  width: 98%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+
+button {
+  padding: 8px 14px;
+  background: #0b57a9;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+button:hover { background: #093f78; }
+  .table { width:100%; border-collapse: collapse; margin-top: 12px; }
+  .table th, .table td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+  .table th { background: #f7f7f7; }
+  .search-box { margin-bottom: 12px; }
+  .msg { padding:8px; background:#eef7e9; border:1px solid #cfe9c8; color:#1f6d2f; margin-bottom:10px; }
+  .err { padding:8px; background:#fdeaea; border:1px solid #f3baba; color:#8b1b1b; margin-bottom:10px; }
+  .footer { text-align:center; color:#666; font-size:12px; margin-top:18px; }
+  .small-link { font-size:13px; color:#0b57a9; text-decoration:none; }
+
+  /* Remove arrows in number input */
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
